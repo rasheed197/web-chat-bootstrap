@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="custom-bg-1">
+    <div class="container-xl">
+      <!-- HEADER -->
+      <div class="row align-items-center sticky-top">
+        <!-- HEADER LEFT -->
+        <div
+          class="col-12 col-md-5 col-lg-4 d-flex justify-content-center align-items-center custom-height-100 custom-bg-2 px-0"
+        >
+          <form class="w-100 position-relative text-white px-3">
+            <i
+              class="bi bi-search custom-position-absolute custom-padding-10"
+            ></i>
+            <input
+              type="text"
+              name="search"
+              placeholder="Search.."
+              class="custom-search-box w-100 custom-padding-10-30 custom-bg-1 text-white rounded-2 custom-remove-outline-and-border"
+            />
+          </form>
+        </div>
+        <!-- // HEADER LEFT -->
+
+        <!-- HEADER RIGHT -->
+        <div
+          class="col-12 col-md-7 col-lg-8 d-none d-md-flex justify-content-between align-items-center custom-height-100 px-0 custom-bg-4 px-3"
+        >
+          <h1 class="fs-3 custom-color-3 m-0">Daryl Duckmanton</h1>
+          <i class="bi bi-trash fs-2 custom-color-1"></i>
+        </div>
+        <!-- // HEADER RIGHT -->
+      </div>
+      <!-- // HEADER -->
+
+      <!-- MAIN -->
+      <div class="row custom-height-100vh-200">
+        <!-- MAIN LEFT -->
+        <div
+          class="col-12 col-md-5 col-lg-4 custom-bg-2 px-0 h-100 overflow-auto"
+        >
+          <div class="d-flex flex-column">
+            <!-- MAIN LEFT ITEMS -->
+            <div
+              class="custom-active-user-bg text-white d-flex align-items-center gap-3 p-3 border-bottom border-dark border-1"
+            >
+              <img
+                src="images/image-daniel.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column gap-2 flex-grow-1">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="m-0 text-truncate">Daryl Duckmanton</h6>
+                  <p class="m-0 custom-fs-12">Apr 18</p>
+                </div>
+                <p class="m-0 custom-fs-14">Ok then</p>
+              </div>
+            </div>
+
+            <div
+              class="custom-user-bg text-white d-flex align-items-center gap-3 p-3 border-bottom border-dark border-1"
+            >
+              <img
+                src="images/image-jeanette.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column gap-2 flex-grow-1">
+                <div class="d-flex align-items-center justify-content-between">
+                  <h6 class="m-0">Kim O&apos;Neil</h6>
+                  <p class="m-0 custom-fs-12">2 days ago</p>
+                </div>
+                <p class="m-0 custom-fs-14">Very funny</p>
+              </div>
+            </div>
+
+            <div
+              class="custom-user-bg text-white d-flex align-items-center gap-3 p-3 border-bottom border-dark border-1"
+            >
+              <img
+                src="images/image-jonathan.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column gap-2 flex-grow-1">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="m-0">John Anderson</h6>
+                  <p class="m-0 custom-fs-12">1 week ago</p>
+                </div>
+                <p class="m-0 custom-fs-14">Yeah Miami heat are done</p>
+              </div>
+            </div>
+
+            <div
+              class="custom-user-bg text-white d-flex align-items-center gap-3 p-3 border-bottom border-dark border-1"
+            >
+              <img
+                src="images/image-kira.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column gap-2 flex-grow-1">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="m-0">Stacey Wilson</h6>
+                  <p class="m-0 custom-fs-12">2:40 PM</p>
+                </div>
+                <p class="m-0 custom-fs-14">No it does not</p>
+              </div>
+            </div>
+
+            <div
+              class="custom-user-bg text-white d-flex align-items-center gap-3 p-3 border-bottom border-dark border-1"
+            >
+              <img
+                src="images/image-patrick.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column gap-2 flex-grow-1">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="m-0">Douglas Johannason</h6>
+                  <p class="m-0 custom-fs-12">6:14 PM</p>
+                </div>
+                <p class="m-0 custom-fs-14">Just be very careful doing that</p>
+              </div>
+            </div>
+
+            <div
+              class="custom-user-bg text-white d-flex align-items-center gap-3 p-3 border-bottom border-dark border-1"
+            >
+              <img
+                src="images/image-daniel.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column gap-2 flex-grow-1">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="m-0">Jacob Manly</h6>
+                  <p class="m-0 custom-fs-12">1 week ago</p>
+                </div>
+                <p class="m-0 custom-fs-14">Just be very careful doing that</p>
+              </div>
+            </div>
+
+            <div
+              class="custom-user-bg text-white d-flex align-items-center gap-3 p-3"
+            >
+              <img
+                src="images/image-kira.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column gap-2 flex-grow-1">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="m-0">Stan George</h6>
+                  <p class="m-0 custom-fs-12">2:40 PM</p>
+                </div>
+                <p class="m-0 custom-fs-14">Good job</p>
+              </div>
+            </div>
+            <!-- // MAIN LEFT ITEMS -->
+          </div>
+        </div>
+        <!-- // MAIN LEFT -->
+
+        <!-- MAIN RIGHT -->
+        <div class="col-12 col-md-7 col-lg-8 bg-white px-0 h-100 overflow-auto">
+          <!-- MAIN RIGHT HEADING -->
+          <div class="row m-0">
+            <div
+              class="col-12 d-flex d-md-none justify-content-between align-items-center custom-height-100 custom-bg-4 px-3"
+            >
+              <h1 class="fs-3 custom-color-3 m-0">Daryl Duckmanton</h1>
+              <i class="bi bi-trash fs-2 custom-color-1"></i>
+            </div>
+          </div>
+          <!-- // MAIN RIGHT HEADING -->
+
+          <!-- MAIN RIGHT MESSAGES -->
+          <div class="row m-0">
+            <div class="col-4"></div>
+            <div class="col-8 d-flex flex-column align-items-end pe-3">
+              <p
+                class="m-0 custom-bg-3 text-white custom-width-fit-content p-3 custom-radius"
+              >
+                How's it going
+              </p>
+              <p class="custom-fs-12">Apr 13</p>
+            </div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-8 d-flex ps-3">
+              <img
+                src="images/image-jeanette.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column align-items-start ps-3">
+                <p
+                  class="m-0 custom-bg-4 text-dark custom-width-fit-content p-3 custom-radius"
+                >
+                  I'm just in the process of finishing off the last pieces of
+                  material for the course
+                </p>
+                <p class="custom-fs-12">Apr 14</p>
+              </div>
+            </div>
+            <div class="col-4"></div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-4"></div>
+            <div class="col-8 d-flex flex-column align-items-end pe-3">
+              <p
+                class="m-0 custom-bg-3 text-white custom-width-fit-content p-3 custom-radius"
+              >
+                Well we need to work out sometime soon where we really want to
+                record our video course
+              </p>
+              <p class="custom-fs-12">Apr 15</p>
+            </div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-8 d-flex ps-3">
+              <img
+                src="images/image-jeanette.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column align-items-start ps-3">
+                <p
+                  class="m-0 custom-bg-4 text-dark custom-width-fit-content p-3 custom-radius"
+                >
+                  All I know is where I live it's to hard to record because of
+                  all the street noise
+                </p>
+                <p class="custom-fs-12">Apr 15</p>
+              </div>
+            </div>
+            <div class="col-4"></div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-4"></div>
+            <div class="col-8 d-flex flex-column align-items-end pe-3">
+              <p
+                class="m-0 custom-bg-3 text-white custom-width-fit-content p-3 custom-radius"
+              >
+                Maybe we can use Jim's studio
+              </p>
+              <p class="custom-fs-12">Apr 16</p>
+            </div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-8 d-flex ps-3">
+              <img
+                src="images/image-jeanette.jpg"
+                alt="daniel profile pic"
+                class="rounded-circle custom-width"
+              />
+              <div class="d-flex flex-column align-items-start ps-3">
+                <p
+                  class="m-0 custom-bg-4 text-dark custom-width-fit-content p-3 custom-radius"
+                >
+                  Yeah i think it's best we do that. Otherwise things won't work
+                  well at all. I'm adding more text here to test the sizing of
+                  the speech bubble and the wrapping of it too
+                </p>
+                <p class="custom-fs-12">Apr 16</p>
+              </div>
+            </div>
+            <div class="col-4"></div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-4"></div>
+            <div class="col-8 d-flex flex-column align-items-end pe-3">
+              <p
+                class="m-0 custom-bg-3 text-white custom-width-fit-content p-3 custom-radius"
+              >
+                Ok then
+              </p>
+              <p class="custom-fs-12">Apr 17</p>
+            </div>
+          </div>
+          <!-- // MAIN RIGHT MESSAGES -->
+        </div>
+        <!-- // MAIN RIGHT -->
+      </div>
+      <!-- // MAIN -->
+
+      <!-- FOOTER -->
+      <div class="row align-items-center sticky-bottom">
+        <!-- FOOTER LEFT -->
+        <div
+          class="col-12 col-md-5 col-lg-4 d-flex justify-content-start align-items-center custom-height-100 custom-bg-3 px-3"
+        >
+          <div class="">
+            <i class="bi bi-plus-circle-fill fs-1 text-white"></i>
+          </div>
+        </div>
+        <!-- // FOOTER LEFT -->
+
+        <!-- FOOTER RIGHT -->
+        <div
+          class="col-12 col-md-7 col-lg-8 d-flex justify-content-center align-items-center custom-bg-4 custom-height-100"
+        >
+          <i class="bi bi-paperclip custom-rotate-45 fs-2 custom-color-3"></i>
+          <form class="w-100 position-relative text-white px-3">
+            <input
+              type="text"
+              name="search"
+              placeholder="type a message"
+              class="custom-message-box w-100 custom-padding-10-30 custom-bg-white shadow text-dark rounded-2 border-light custom-remove-outline border-1 border-black"
+            />
+          </form>
+        </div>
+        <!-- // FOOTER RIGHT -->
+      </div>
+      <!-- // FOOTER -->
+    </div>
+
+    <!-- BOOTSTRAP JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
