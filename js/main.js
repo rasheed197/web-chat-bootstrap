@@ -4,7 +4,6 @@ const mainLeft = document.querySelector('.left-section')
 const mainRight = document.querySelector('.right-section')
 
 toggle.addEventListener('click', () => {
-    console.log("Toggle")
     if (mainLeft.classList.contains('hide')) {
         mainLeft.classList.remove('hide')
     } else  {
