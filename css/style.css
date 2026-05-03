@@ -1,6 +1,6 @@
 body,
 html {
-  height: 100vh;
+  height: 100dvh;
 }
 
 .floating-chat {
@@ -74,12 +74,12 @@ html {
 }
 
 .custom-height-100vh-200 {
-  height: calc(100vh - 200px);
+  height: calc(100dvh - 200px);
   overflow-y: hidden;
 }
 
 .custom-height-100vh-100 {
-    height: calc(100vh-300px);
+    height: calc(100dvh-300px);
 }
 
 .custom-padding-10 {
@@ -185,7 +185,7 @@ html {
   }
 
   .custom-height-100vh-200 {
-    height: calc(100vh - 200px);
+    height: calc(100dvh - 200px);
     overflow-y: auto;
   }
 
