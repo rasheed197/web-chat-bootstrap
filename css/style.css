@@ -3,6 +3,24 @@ html {
   height: 100vh;
 }
 
+.floating-chat {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #4b85b6;
+  color: black;
+  z-index: 2;
+}
+
+.add-btn {
+  font-size: 40px;
+}
+
 .custom-active-user-bg {
   background-color: #1c479c;
 }
@@ -60,9 +78,9 @@ html {
   overflow-y: hidden;
 }
 
-/* .custom-height-100vh-100 {
+.custom-height-100vh-100 {
     height: calc(100vh-300px);
-} */
+}
 
 .custom-padding-10 {
   padding: 10px;
@@ -136,7 +154,8 @@ html {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 4px;
+  /* width: 4px; */
+  width: 0;
 }
 
 /* Track */
@@ -158,8 +177,15 @@ html {
 /* // STYLE SCROLLBAR */
 
 @media (max-width: 767.5px) {
+
+  .floating-chat {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
   .custom-height-100vh-200 {
-    height: calc(100vh - 300px);
+    height: calc(100vh - 200px);
     overflow-y: auto;
   }
 
@@ -186,4 +212,24 @@ html {
   }
 
   /* // STYLE SCROLLBAR */
+
+  .right-section {
+    display: none;
+  }
+
+  .right-section.show {
+    display: flex;
+  }
+
+  .left-section {
+    display: flex;
+  }
+
+  .left-section.hide {
+    display: none;
+  }
+
+  /* .header-left.hide {
+    display: none !important;
+  } */
 }
